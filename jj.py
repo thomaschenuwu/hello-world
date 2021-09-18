@@ -48,7 +48,7 @@ while ComputerWins < 2 and PlayerWins < 2:
     print("You went " + PlayerInput + ". Computer went " + ComputerInput + ".")
     print("You " + result)
 
-    if result == "lost":
+    if result == "won":
         PlayerWins = PlayerWins + 1
     if result == "lost":
         ComputerWins = ComputerWins + 1
@@ -58,7 +58,7 @@ while ComputerWins < 2 and PlayerWins < 2:
 if ComputerWins == 2:
     print("You suck")
 if PlayerWins == 2:
-    print("you are bad")
+    print("you suck")
 
 
     
